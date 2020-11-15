@@ -1,24 +1,41 @@
-# README
+# MovieFind Backend 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Ruby on Rails API for MovieFind. MovieFind is a simple movie app that allows user to search, view, and like/dislike movies.
 
-Things you may want to cover:
+[Link to Frontend](https://github.com/vuonga1103/movie-find-front-end)
 
-* Ruby version
+## Getting Started
 
-* System dependencies
+1. Install [Homebrew](https://brew.sh/)
 
-* Configuration
+    ```$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"```
+  
+2. Install [Ruby](https://www.ruby-lang.org/en/)
+    
+    ```$ brew install ruby```
 
-* Database creation
+3. Install [Rails](https://rubyonrails.org/)
 
-* Database initialization
+    ```$ gem install rails```
 
-* How to run the test suite
+4. Install [PostgreSQL](https://www.postgresql.org/)
 
-* Services (job queues, cache servers, search engines, etc.)
+    ```$ brew install postgresql```
 
-* Deployment instructions
 
-* ...
+## Downloading This Project
+
+1. Clone the repo and cd into the folder
+2. Bundle Install
+
+    ```$ bundle install```
+    
+3. Create migrations abd migrate:
+
+    ```
+    $ rails db:create
+    $ rails db:migrate
+
+4. Last step, launch the rails server!
+
+    ```$ rails s -p 4000```

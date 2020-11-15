@@ -35,7 +35,7 @@ This is the Ruby on Rails API for MovieFind. MovieFind is a simple movie app tha
     ```
     $ rails db:create
     $ rails db:migrate
-
+    ```
 4. Last step, launch the rails server!
 
     ```$ rails s -p 4000```
